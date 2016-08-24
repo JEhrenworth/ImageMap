@@ -1,17 +1,17 @@
 .ImageExamples {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between; /* or space-around */
+	display: flex !important;
+	flex-wrap: wrap !important;
+	justify-content: space-between !important; /* or space-around */
 }
 
 #ExampleImage {
-	display: inline-block;
-	margin-bottom: 8px;
-	width: calc(50% - 4px);
+	display: inline-block !important;
+	margin-bottom: 8px !important;
+	width: calc(50% - 4px) !important;
 }
 
 @media screen and (min-width: 100em) {
 	#ExampleImage {
-		width: calc(25% - 6px);
+		width: calc(25% - 6px) !important;
 	}
 }
