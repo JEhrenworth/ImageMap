@@ -4,23 +4,23 @@ This app integrates with your photo library, and camera, to create a single app 
 
 <link rel="stylesheet" type="text/css" href="style.css">
 
-<div>
-	<a href="ExampleImages/CameraView.PNG">
+<div class="ImageExamples">
+	<a href="ExampleImages/CameraView.PNG" id="ExampleImage">
 		<figure>
 			<img src="ExampleImages/CameraView.PNG" alt="CameraView">
 		</figure>
 	</a>
-	<a href="ExampleImages/MapView.PNG">
+	<a href="ExampleImages/MapView.PNG" id="ExampleImage">
 		<figure>
 			<img src="ExampleImages/MapView.PNG" alt="MapView">
 		</figure>
 	</a>
-	<a href="ExampleImages/CollectionView.PNG">
+	<a href="ExampleImages/CollectionView.PNG" id="ExampleImage">
 		<figure>
 			<img src="ExampleImages/CollectionView.PNG" alt="CollectionView">
 		</figure>
 	</a>
-	<a href="ExampleImages/ImageView.PNG">
+	<a href="ExampleImages/ImageView.PNG" id="ExampleImage">
 		<figure>
 			<img src="ExampleImages/ImageView.PNG" alt="ImageView">
 		</figure>

@@ -1,17 +1,17 @@
-div {
+.ImageExamples {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between; /* or space-around */
 }
 
-a {
+#ExampleImage {
 	display: inline-block;
 	margin-bottom: 8px;
 	width: calc(50% - 4px);
 }
 
 @media screen and (min-width: 100em) {
-	a {
+	#ExampleImage {
 		width: calc(25% - 6px);
 	}
 }
