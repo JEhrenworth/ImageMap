@@ -43,7 +43,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8119217B1D5B807600C1E9BD /* DateExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DateExtensions.swift; path = ../DateExtensions.swift; sourceTree = "<group>"; };
+		8119217B1D5B807600C1E9BD /* DateExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateExtensions.swift; sourceTree = "<group>"; };
 		8136BF9A1D5BC30D00416592 /* Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
 		8136BF9C1D5BCAEA00416592 /* ImageViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewExtensions.swift; sourceTree = "<group>"; };
 		8136BFA01D5CB0D900416592 /* FBAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBAnnotation.swift; sourceTree = "<group>"; };
@@ -64,13 +64,13 @@
 		818011B01D6BA0BC00DFA197 /* ImageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageController.swift; sourceTree = "<group>"; };
 		818011B21D6BA98C00DFA197 /* FindPreviousView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindPreviousView.swift; sourceTree = "<group>"; };
 		818E8E7E1D5B74B000D669D6 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
-		818E8E801D5B78C600D669D6 /* MapViewDelegates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapViewDelegates.swift; path = ../MapViewDelegates.swift; sourceTree = "<group>"; };
-		818E8E821D5B7A0000D669D6 /* ImageResize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageResize.swift; path = ../ImageResize.swift; sourceTree = "<group>"; };
-		8198BD011D5AA28600A35976 /* PickerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PickerController.swift; path = ../PickerController.swift; sourceTree = "<group>"; };
+		818E8E801D5B78C600D669D6 /* MapViewDelegates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewDelegates.swift; sourceTree = "<group>"; };
+		818E8E821D5B7A0000D669D6 /* ImageResize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageResize.swift; sourceTree = "<group>"; };
+		8198BD011D5AA28600A35976 /* PickerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerController.swift; sourceTree = "<group>"; };
 		819A00061D5A474400F93E04 /* CustomOverlayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomOverlayViewController.swift; sourceTree = "<group>"; };
 		819A00071D5A474400F93E04 /* CustomOverlayViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomOverlayViewController.xib; sourceTree = "<group>"; };
 		819A000A1D5A48CF00F93E04 /* CustomOverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomOverlayView.swift; sourceTree = "<group>"; };
-		819A000C1D5A9E5300F93E04 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = ../MainViewController.swift; sourceTree = "<group>"; };
+		819A000C1D5A9E5300F93E04 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		819A000E1D5A9EA200F93E04 /* OverlayController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverlayController.swift; sourceTree = "<group>"; };
 		946BF1001D5A231900445BBD /* ImageMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		946BF1031D5A231900445BBD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -98,7 +98,7 @@
 				8136BF961D5B9C4C00416592 /* ObjectControllers */,
 				8136BF951D5B9C2300416592 /* ViewControllers */,
 			);
-			name = MainView;
+			path = MainView;
 			sourceTree = "<group>";
 		};
 		8136BF951D5B9C2300416592 /* ViewControllers */ = {
@@ -107,7 +107,7 @@
 				819A00061D5A474400F93E04 /* CustomOverlayViewController.swift */,
 				819A000C1D5A9E5300F93E04 /* MainViewController.swift */,
 			);
-			name = ViewControllers;
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 		8136BF961D5B9C4C00416592 /* ObjectControllers */ = {
@@ -116,7 +116,7 @@
 				819A000E1D5A9EA200F93E04 /* OverlayController.swift */,
 				8198BD011D5AA28600A35976 /* PickerController.swift */,
 			);
-			name = ObjectControllers;
+			path = ObjectControllers;
 			sourceTree = "<group>";
 		};
 		8136BF971D5B9E0400416592 /* MapView */ = {
@@ -124,10 +124,10 @@
 			children = (
 				8136BF9F1D5CB08100416592 /* ExtensionsAndDeclarations */,
 				8136BF9E1D5BCC0D00416592 /* ImageControllers */,
-				818E8E801D5B78C600D669D6 /* MapViewDelegates.swift */,
 				818E8E7E1D5B74B000D669D6 /* MapViewController.swift */,
+				818E8E801D5B78C600D669D6 /* MapViewDelegates.swift */,
 			);
-			name = MapView;
+			path = MapView;
 			sourceTree = "<group>";
 		};
 		8136BF991D5BA22B00416592 /* CustomView */ = {
@@ -135,7 +135,7 @@
 			children = (
 				819A000A1D5A48CF00F93E04 /* CustomOverlayView.swift */,
 			);
-			name = CustomView;
+			path = CustomView;
 			sourceTree = "<group>";
 		};
 		8136BF9E1D5BCC0D00416592 /* ImageControllers */ = {
@@ -145,16 +145,16 @@
 				818E8E821D5B7A0000D669D6 /* ImageResize.swift */,
 				8136BF9C1D5BCAEA00416592 /* ImageViewExtensions.swift */,
 			);
-			name = ImageControllers;
+			path = ImageControllers;
 			sourceTree = "<group>";
 		};
 		8136BF9F1D5CB08100416592 /* ExtensionsAndDeclarations */ = {
 			isa = PBXGroup;
 			children = (
-				8119217B1D5B807600C1E9BD /* DateExtensions.swift */,
 				8136BFAF1D5CCC1600416592 /* ArrayExtensions.swift */,
+				8119217B1D5B807600C1E9BD /* DateExtensions.swift */,
 			);
-			name = ExtensionsAndDeclarations;
+			path = ExtensionsAndDeclarations;
 			sourceTree = "<group>";
 		};
 		8136BFAE1D5CB0DF00416592 /* FBClusteringManager */ = {
@@ -168,7 +168,7 @@
 				8136BFA51D5CB0D900416592 /* FBQuadTree.swift */,
 				8136BFA61D5CB0D900416592 /* FBQuadTreeNode.swift */,
 			);
-			name = FBClusteringManager;
+			path = FBClusteringManager;
 			sourceTree = "<group>";
 		};
 		8136BFB91D5D180700416592 /* CollectionView */ = {
@@ -177,28 +177,28 @@
 				8136BFB51D5D047600416592 /* CollectionViewController.swift */,
 				8136BFB71D5D176B00416592 /* CollectionViewDelegates.swift */,
 			);
-			name = CollectionView;
+			path = CollectionView;
 			sourceTree = "<group>";
 		};
 		8136BFBE1D5E0A6900416592 /* ImageView */ = {
 			isa = PBXGroup;
 			children = (
-				8136BFBA1D5D42C100416592 /* ImageViewController.swift */,
-				818011B21D6BA98C00DFA197 /* FindPreviousView.swift */,
 				818011B41D6BD09B00DFA197 /* CustomControllers */,
-				818011AE1D6A742800DFA197 /* TappedHandler.swift */,
 				818011AA1D5E0C7D00DFA197 /* CollectionController.swift */,
+				818011B21D6BA98C00DFA197 /* FindPreviousView.swift */,
+				8136BFBA1D5D42C100416592 /* ImageViewController.swift */,
+				818011AE1D6A742800DFA197 /* TappedHandler.swift */,
 			);
-			name = ImageView;
+			path = ImageView;
 			sourceTree = "<group>";
 		};
 		818011B41D6BD09B00DFA197 /* CustomControllers */ = {
 			isa = PBXGroup;
 			children = (
-				818011B01D6BA0BC00DFA197 /* ImageController.swift */,
 				8136BFBC1D5E09BE00416592 /* BottomController.swift */,
+				818011B01D6BA0BC00DFA197 /* ImageController.swift */,
 			);
-			name = CustomControllers;
+			path = CustomControllers;
 			sourceTree = "<group>";
 		};
 		946BF0F71D5A231900445BBD = {
@@ -220,21 +220,20 @@
 		946BF1021D5A231900445BBD /* ImageMap */ = {
 			isa = PBXGroup;
 			children = (
-				946BF1031D5A231900445BBD /* AppDelegate.swift */,
-				818011AC1D6A102800DFA197 /* GetImageFromAsset.swift */,
-				8136BF971D5B9E0400416592 /* MapView */,
-				8136BF941D5B9C0A00416592 /* MainView */,
 				8136BFB91D5D180700416592 /* CollectionView */,
-				819A00071D5A474400F93E04 /* CustomOverlayViewController.xib */,
-				946BF1071D5A231900445BBD /* Main.storyboard */,
-				8136BFBE1D5E0A6900416592 /* ImageView */,
-				946BF10A1D5A231900445BBD /* Assets.xcassets */,
-				946BF10C1D5A231900445BBD /* LaunchScreen.storyboard */,
 				8136BFAE1D5CB0DF00416592 /* FBClusteringManager */,
+				8136BFBE1D5E0A6900416592 /* ImageView */,
+				8136BF941D5B9C0A00416592 /* MainView */,
+				8136BF971D5B9E0400416592 /* MapView */,
+				946BF1031D5A231900445BBD /* AppDelegate.swift */,
+				946BF10A1D5A231900445BBD /* Assets.xcassets */,
+				819A00071D5A474400F93E04 /* CustomOverlayViewController.xib */,
+				818011AC1D6A102800DFA197 /* GetImageFromAsset.swift */,
 				946BF10F1D5A231900445BBD /* Info.plist */,
+				946BF10C1D5A231900445BBD /* LaunchScreen.storyboard */,
+				946BF1071D5A231900445BBD /* Main.storyboard */,
 			);
-			name = ImageMap;
-			path = CameraView;
+			path = ImageMap;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -354,6 +353,7 @@
 				946BF1081D5A231900445BBD /* Base */,
 			);
 			name = Main.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 		946BF10C1D5A231900445BBD /* LaunchScreen.storyboard */ = {
@@ -362,6 +362,7 @@
 				946BF10D1D5A231900445BBD /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -457,7 +458,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				ENABLE_BITCODE = YES;
-				INFOPLIST_FILE = CameraView/Info.plist;
+				INFOPLIST_FILE = ImageMap/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jehrenworth.CameraView;
@@ -473,7 +474,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				ENABLE_BITCODE = YES;
-				INFOPLIST_FILE = CameraView/Info.plist;
+				INFOPLIST_FILE = ImageMap/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jehrenworth.CameraView;
